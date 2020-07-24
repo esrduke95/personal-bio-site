@@ -1,3 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: dodgerblue;
+}
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    font-family: 'Zilla Slab', serif;
+    float: left;
+    padding-right: 5px;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+nav {
+    background-color: gold;
+    height: 75px;
+    align-content: center;
+    margin-bottom: 25px;
+}
+header {
+    background-color: fuchsia;
+    text-align: center;
+}
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    display: block;
+    float: right;
+    text-align: center;
+    margin-top: 6px;
+}
+.page-footer {
+    display: flex;
+    align-content: flex-end;
 }
